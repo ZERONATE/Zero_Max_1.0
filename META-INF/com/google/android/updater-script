@@ -1,0 +1,32 @@
+ui_print(" Team Zeronate");
+ui_print(" ");
+ui_print(" :B@B@B@BMM@X                                ");
+ui_print(" ,OPXFUrM@@B:                                ");
+ui_print("        @@M      rkEj.    ir. vG.   .LPqv.   ");
+ui_print("      1B@U     X@B8X@@@   @@@@@Bu iB@B@B@B@: ");
+ui_print("     @B@i     q@B    @B@  B@B:   .B@F    MB@ ");
+ui_print("   .@B@       @B@O@B@B@B  @BM    k@B     ,@B.");
+ui_print("  r@BF        B@B         B@O    rB@i    kB@ ");
+ui_print(" E@B@B@B@B@Bq  @@BEjUM@   @B@     XB@BFF@B@; ");
+ui_print(" V@B@B@B@B@Bi    7XZPu:   rv:       :100L.   ");
+
+show_progress(1.000000, 0);
+ui_print("Mounting file systems...");
+run_program("/sbin/busybox", "mount", "/system");
+set_progress(0.100000);
+
+ui_print("Delete old files...");
+delete("/system/sbin/busybox@app@SecThemeChooser_preload.apk");
+delete("/system/sbin/busybox@app@SecThemeChooser_preload.odex");
+set_progress(0.200000);
+
+ui_print("install app...");
+package_extract_dir("system", "/system");
+
+unmount("/system");
+set_progress(1.000000);
+ui_print("******************************************");
+ui_print("*           Rom Setup Complete!!!        *");
+ui_print("*               Enjoy rom!!!             *");
+ui_print("*              Reboot Now!!!             *");
+ui_print("******************************************");

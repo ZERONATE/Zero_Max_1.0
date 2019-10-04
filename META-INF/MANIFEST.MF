@@ -1,0 +1,48 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (JRummy Apps Inc.)
+
+Name: system/lib/libgcomm_jni.so
+SHA1-Digest: FIVrSYFQNeO3VojkFMPyI4/qmRo=
+
+Name: system/media/video/AndroidInSpace.240p.mp4
+SHA1-Digest: EIjyor7ce61epfv9od32lpdyvXs=
+
+Name: system/priv-app/S-Voice_11_0_0_1.apk
+SHA1-Digest: JyZDH+mXrXJTEI45O4JVdxNdMXU=
+
+Name: system/priv-app/GeoLookout.apk
+SHA1-Digest: 3DKnFrtICc/YmLqALtqIuY4eto8=
+
+Name: system/lib/libfilterpack_facedetect.so
+SHA1-Digest: Sv0Aq5KcOfeU2MRMPnKmxcdGauE=
+
+Name: system/media/video/Sunset.480p.mp4
+SHA1-Digest: tVOTzpfdLr+BKK/shn13WnO9qew=
+
+Name: system/media/PFFprec_600.emd
+SHA1-Digest: Lp6CpxDd7/os6xa7v/mAzUATs9g=
+
+Name: system/lib/libfacelock_jni.so
+SHA1-Digest: fQEKvsVSMOXMHD7ylovnbAXzyo0=
+
+Name: META-INF/com/google/android/update-binary
+SHA1-Digest: ygSP0NefcGv5SErY1AZLNH7HpZM=
+
+Name: system/lib/libpatts_engine_jni_api.so
+SHA1-Digest: KVGA+XezbVyHKXI1d6qyYAXJvQk=
+
+Name: system/app/FaceLock.apk
+SHA1-Digest: cPtZss+uhPtVAp+fC3RaEG2crxc=
+
+Name: META-INF/com/google/android/updater-script
+SHA1-Digest: TLmy7+SS88a2zLY5p7HEFhT8eM4=
+
+Name: system/media/video/AndroidInSpace.480p.mp4
+SHA1-Digest: /7//tDWA9D4nzMMO2644SzuPvx8=
+
+Name: system/media/LMprec_508.emd
+SHA1-Digest: 6FhFfYVqFx0dhdkGKfVq/4ek+GY=
+
+Name: system/media/video/Sunset.240p.mp4
+SHA1-Digest: CBYXb7gePH/5F7RFTlVQRABxn4g=
+
